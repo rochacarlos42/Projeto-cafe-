@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .videoFundo {
     position: fixed;
@@ -29,5 +30,33 @@
     left: 0;
     z-index: 2;
     background-color: #000;
-    border-bottom: 0.1rem solid rgba(255,255,255,0,3);
+    border-bottom: 3px solid #fff;
+    width: 100%;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    position: relative;
+}
+
+.header section a img {
+    height: 6rem;
+    padding-left: 40px;
+
+}
+
+.header section nav a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: 0.5s linear;
+}
+
+.header section nav a:hover {
+    color:rgb(218, 178, 103);
+    border-bottom: 2px solid rgb(218, 178, 103);
+    padding-bottom: 5px;
 }
