@@ -60,3 +60,39 @@
     border-bottom: 2px solid rgb(218, 178, 103);
     padding-bottom: 5px;
 }
+ .caixaPrincipal {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+
+ .caixaPrincipal div {
+    max-width: 60rem;
+ }
+
+ .caixaPrincipal div h3 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 20px;
+ }
+
+ .caixaPrincipal div p {
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+ }
+
+ .caixaPrincipal div a {
+    background-color: chocolate;
+    padding: 18px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+ }
+
+ .caixaPrincipal div a:hover {
+    background-color: #fff;
+    color: chocolate;
+ }
