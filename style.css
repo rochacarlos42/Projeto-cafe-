@@ -84,7 +84,7 @@
     padding: 30px;
  }
 
- .caixaPrincipal div a {
+ .botaoLink {
     background-color: chocolate;
     padding: 18px;
     color: #fff;
@@ -92,7 +92,56 @@
     margin-left: 20px;
  }
 
- .caixaPrincipal div a:hover {
+ .botaoLink:hover {
+    background-color: #fff;
+    color: chocolate;
+ }
+ .caixaSobre h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-size: 40px;
+ }
+ .caixaSobre h2 span {
+    color: chocolate;
+ }
+ .caixaSobre .sobreContainer {
+    display: flex;
+    background-color: #000;
+    gap: 10px;
+    
+    
+ }
+ .caixaSobre .sobreContainer .sobreImagem {
+    height: 500px;
+    width: 700px;
+ }
+   .sobreTexto {
+      padding-top: 15px;
+   }
+
+ .caixaSobre .sobreTexto h3 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 10px;
+ }
+ .caixaSobre .sobreTexto p {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+ }
+ .botaoLink2 {
+    background-color: chocolate;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+   
+ }
+
+ .botaoLink2:hover {
     background-color: #fff;
     color: chocolate;
  }
