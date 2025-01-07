@@ -114,8 +114,8 @@
     
  }
  .caixaSobre .sobreContainer .sobreImagem {
-    height: 500px;
-    width: 700px;
+    height: 100%;
+    width: 80%;
  }
    .sobreTexto {
       padding-top: 15px;
